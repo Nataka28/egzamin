@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <title>Komputery</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="icon" href="favicon.png">
+    <script src="skrypt.js"></script>
+</head>
+<body>
+    <section id="kontener">
+
+        <section id="baner"> 
+            <img id="obraz" src="animacja.gif"  alt="Pogotowie komputerowe">
+        </section>
+
+        <section id="menu">
+            <a class="link" href="index.html">Strona Główna</a>
+            <a class="link1" href="kontakt.html">Kontakt</a>
+        </section>
+
+        <section id="main">
+            <section id="blok1">
+               
+            </section>
+            <section id="blok2">
+                <h2>Kontakt</h2>
+                <center><table><form>
+                    <tr>
+                        <td>Imię:</td> <td><input id="pole1" ></td> 
+                     </tr>
+                     <tr>
+                        <td>Nazwisko:</td> <td><input id="pole2" type="text" ></td> 
+                     </tr>
+                     <tr>
+                        <td>E-mail:</td> <td><input id="pole3" type="email" ></td> 
+                     </tr>
+                     <tr>
+                        <td>Zgłoszenie:</td> <td><select id="pole4">
+                            <option value="Naprawa komputerów">Naprawa komputerów</option>
+                            <option value="Odzyskiwanie danych">Odzyskiwanie danych</option>
+                            <option value="Wirusy">Wirusy</option>
+                            <option value="Konfiguracja LAN">Konfiguracja LAN</option>
+                        </select></td> 
+                     </tr>
+                     <tr>
+                        <td></td> <td><input type="checkbox"  value="Wyślij kopię wiadomości" checked>Wyślij kopię wiadomości</td> 
+                     </tr>
+                     <tr>
+                        <td></td> <td><button type="reset">Czyść</button><button onclick="wyslij()">Wyślij</button></td> 
+                     </tr></form>
+                </table>
+                </center>
+                <hr>
+                <div id="komunikat1"><p></p></div>
+                <p id="komunikat1"></p>
+                <p id="komunikat2"></p>
+                <p id="komunikat3"></p>
+            </section>
+            <section id="blok3">
+             
+            </section>
+        </section>  
+
+            
+    </section>
+    <section id="footer">
+ <p>Autor:<i>Natalia</i> </p>
+    </section> 
+</body>
+</html>
